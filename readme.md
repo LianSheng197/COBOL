@@ -12,3 +12,12 @@
    3. `sudo make install`
 3. 更新系統動態函式庫的資料庫 `sudo ldconfig`
 4. 安裝成功 `cobc --version`
+
+
+
+## 常用指令
+
+### 常規編譯並執行
+```bash
+cobc -x -o main.out <target.cob> && ./main.out
+```
